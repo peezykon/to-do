@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+    font-size: 62.5%;
+    height: 99vh;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 500;   
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color: #fff;
+    font-family: Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+.head{
+    color: darksalmon;
+    font-weight: 800;
+}
+
+.input-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input-div .input{
+    padding: .5rem 1rem;
+    height: 50px;
+    outline: none;
+    background-color: #fff;
+    width: 450px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+    border: none;
+}
+
+.addButton{
+    height: 50px;
+    width: 50px;
+    outline: none;
+    border-radius: 25px;
+    border: none;
+    background-color: lime;
+    color: #fff;
+    margin: 0.25rem;
+    cursor: pointer;
+}
+
+.addButton:hover{
+    opacity: 0.7;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.item{
+    margin: .5rem;
+    padding: 1.5rem;
+    border-bottom: 4px solid #fff;
+}
+
+body > div.container > div > input{
+    background: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    width: 35rem;
+    font-size: 1.4rem;
+}
+
+
+
+.editButton{
+    font-size: 1.4rem;
+    margin: 0 .75rem;
+    font-family: Tahoma, sans-serif;
+    background-color: none;
+    outline: none;
+    color: lime;
+    border: none;
+    cursor: pointer;
+}
+
+.removeButton{
+    font-size: 1.4rem;
+    margin: 0 .75rem;
+    font-family: Tahoma, sans-serif;
+    background-color: none;
+    outline: none;
+    color: #e00;
+    border: none;
+    cursor: pointer;
+}
